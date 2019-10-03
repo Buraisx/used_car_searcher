@@ -1,0 +1,89 @@
+main {
+  background-color: #FAFAFA;
+  height: 100%;
+  min-height: 100vh;
+}
+form{
+  background-color: white;
+  border-radius: 4px;
+}
+form > img{
+  margin-bottom: 2rem;
+}
+label{
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #444444;
+}
+select{
+  border-radius: 0px;
+}
+button[type=submit]{
+  margin-top: 1rem;
+}
+
+
+.listing-container{
+  height: 100%;
+  min-height: 100vh;
+}
+.listing-container--center{
+  align-items: center;
+}
+.listing__search-form{
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
+
+  padding: 3rem;
+}
+
+.listing__search-form-info{
+  font-size: 1.5rem;
+}
+
+.listing__image{
+  padding-right: 0;
+}
+.listing__details{
+  margin-top: 1.5rem;
+  margin-bottom:1.5rem;
+  padding:0 2rem 0 2rem;
+}
+
+.listing__specs{
+  margin-top:1rem;
+  text-decoration: underline;
+  text-decoration-color: #E90843;
+}
+
+.listing__title{
+  font-weight: 600;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #E90843;
+}
+
+.listing__details p{
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+.car-listings{
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+
+  margin-top: 3rem;
+}
+
+.car-listings > .row{
+  background-color: white;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
+  margin: 3rem auto;
+}
+
+.dealer-btn{
+  margin-top: 1rem;
+}
